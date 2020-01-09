@@ -17,6 +17,11 @@ img {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: #484848;
+}
+
 .headerfont {
   margin-bottom: 0.5rem;
 }
@@ -80,7 +85,6 @@ img {
   grid-row-end:2;
   z-index: 1;
   width: 100%;
-  margin-top: 0.5rem;
 }
 
 .skillscontent {
@@ -90,7 +94,6 @@ img {
   grid-row-end:2;
   z-index: 1;
   width: 100%;
-  margin-top: 0.5rem;
 }
 
 .footer {
@@ -117,9 +120,12 @@ img {
   grid-column-start:6;
   grid-column-end:7;
   grid-row-start:3;
-  grid-row-end:3;
+  grid-row-end:5;
   z-index: 1;
   width: 100%;
+  border: 0;
+  border-left: 1.3px solid #484848;
+  border-style: dashed;
 }
 
 .birth {
@@ -130,6 +136,9 @@ img {
   z-index: 1;
   width: 100%;
   align-self: end;
+  border: 0;
+  border-left: 1.3px solid #484848;
+  border-style: dashed;
 }
 
 
@@ -230,7 +239,6 @@ font-style: normal;
     grid-row-end:2;
     z-index: 1;
     width: 100%;
-    margin-top: 0.5rem;
   }
 
   .skillscontent {
@@ -240,7 +248,6 @@ font-style: normal;
     grid-row-end:2;
     z-index: 1;
     width: 100%;
-    margin-top: 0.5rem;
   }
 
   .cv {
@@ -256,9 +263,12 @@ font-style: normal;
     grid-column-start:6;
     grid-column-end:7;
     grid-row-start:2;
-    grid-row-end:2;
+    grid-row-end:4;
     z-index: 1;
     width: 100%;
+    border: 0;
+    border-left: 1.3px solid #484848;
+    border-style: dashed;
   }
 
   .birth {
@@ -269,6 +279,9 @@ font-style: normal;
     z-index: 1;
     width: 100%;
     align-self: end;
+    border: 0;
+    border-left: 1.3px solid #484848;
+    border-style: dashed;
   }
 
   .scrollbar {
@@ -319,5 +332,25 @@ font-style: normal;
 
   .namedesk {
     display: none;
+  }
+
+  .skills {
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:2;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .skillscontent {
+    grid-column-start:3;
+    grid-column-end:7;
+    grid-row-start:2;
+    grid-row-end:2;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0.5rem;
   }
 }
